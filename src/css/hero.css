@@ -76,9 +76,9 @@
 }
 
 @media (min-resolution: 192dpi) {
-  .hero {
+  /* .hero {
     background-image: url(../img/optima/Hero2x.png);
-  }
+  } */
 }
 
 @media screen and (min-width: 375px) {
@@ -132,7 +132,7 @@
     max-width: none;
     background-position: center;
     min-width: 100%;
-    background-image: url(../img/optima/hero.png);
+    background-image: url(/src/img/optima/Hero.png);
     max-width: 1440px;
     background-repeat: no-repeat;
     padding-top: 0;
