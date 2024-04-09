@@ -1,0 +1,161 @@
+.hero {
+  background-image: url(../img/optima/hero-mobile.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+}
+
+.hero-container {
+  padding: 281px 0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  position: relative;
+}
+
+.hero-title {
+  width: 100%;
+  font-family: Inter Tight;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-align: left;
+  /* color: #FAFAFA; */
+}
+
+.hero-list-link {
+  display: flex;
+  margin: 0 auto;
+  gap: 4px;
+  flex-wrap: wrap;
+  justify-content: end;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* left: 16px; */
+}
+
+.link-item {
+  transition: 0.3s ease;
+}
+
+.link-item:hover {
+  transform: scale(1.08);
+  background-color: var(--btn-hover);
+  border-radius: 50%;
+}
+
+.link-item:last-child:hover {
+  border-radius: 60px;
+}
+
+.hero-link {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  border-radius: 60px;
+  border: 1px solid #fafafa33;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter Tight;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0.83;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fafafa;
+}
+
+.link-size {
+  width: 175px;
+}
+
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(../img/optima/Hero2x.png);
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .hero {
+    background-image: url(../img/optima/Hero-mobile2x.png);
+    margin: 0 auto;
+  }
+
+  .hero-title {
+    width: 343px;
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url(../img/optima/Hero.png);
+    /* background-position: -147px; */
+  }
+
+  .hero {
+    padding-top: 0;
+    background-size: cover;
+    max-width: 1439px;
+  }
+
+  .hero-title {
+    width: 632px;
+    font-size: 90px;
+  }
+
+  .hero-list-link {
+    gap: 8px;
+    right: 0;
+    justify-content: end;
+  }
+
+  .hero-link {
+    width: 53px;
+    height: 53px;
+    font-size: 16px;
+  }
+
+  .link-size {
+    width: 221px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section.hero {
+    max-width: none;
+    background-position: center;
+    min-width: 100%;
+    background-image: url(../img/optima/hero.png);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    padding-top: 0;
+  }
+
+  .hero-container {
+    /* padding: 300px 178px 330px; */
+    padding-top: 275px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* justify-content: flex-start; */
+  }
+
+  .hero-title {
+    width: 1084px;
+    font-size: 90px;
+  }
+  .hero-list-link {
+    right: 32px;
+    bottom: 0;
+  }
+}
