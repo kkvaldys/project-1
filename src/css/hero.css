@@ -24,6 +24,7 @@
   line-height: 1;
   letter-spacing: -0.03em;
   text-align: left;
+  text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
   /* color: #FAFAFA; */
 }
 
@@ -77,7 +78,7 @@
 
 @media (min-resolution: 192dpi) {
   .hero {
-    background-image: url(../img/optima/Hero2x.png);
+    background-image: url(../img/optima/hero2x.png);
   }
 }
 
@@ -132,7 +133,7 @@
     max-width: none;
     background-position: center;
     min-width: 100%;
-    background-image: url(../img/optima/Hero.png);
+    background-image: url(../img/optima/hero.png);
     max-width: 1440px;
     background-repeat: no-repeat;
     padding-top: 0;
